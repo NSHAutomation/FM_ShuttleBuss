@@ -1,0 +1,6 @@
+{
+  "Name": "BankStatements",
+  "ProjectType": "Process",
+  "Description": "",
+  "MainFile": "Main.xaml"
+}

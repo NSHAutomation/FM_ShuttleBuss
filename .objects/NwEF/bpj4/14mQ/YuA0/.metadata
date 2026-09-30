@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Personnel",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "YuA0WROXE02WeF6LtImFpA",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/YuA0WROXE02WeF6LtImFpA",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A",
+  "Created": "2026-09-30T10:38:02.9209032Z",
+  "Updated": "2026-09-30T10:38:02.9209032Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

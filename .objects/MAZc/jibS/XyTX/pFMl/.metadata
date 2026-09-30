@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mouse Scroll-CaseParties",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "pFMlZq0OcEKzoGdAzKIA0A",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/pFMlZq0OcEKzoGdAzKIA0A",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/XyTXiwjFpk68qTptrsDG-A",
+  "Created": "2026-09-30T06:23:26.0015129Z",
+  "Updated": "2026-09-30T06:23:26.0015129Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

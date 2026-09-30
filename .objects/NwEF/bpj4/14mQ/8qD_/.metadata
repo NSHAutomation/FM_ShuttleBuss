@@ -1,0 +1,17 @@
+﻿{
+  "Name": "I-FilterCheck",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "8qD_d-b55Eal2d8VsI0Owg",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/8qD_d-b55Eal2d8VsI0Owg",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A",
+  "Created": "2026-09-30T10:43:19.1806574Z",
+  "Updated": "2026-09-30T10:46:17.3146883Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

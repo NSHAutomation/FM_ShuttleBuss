@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Edge Salesforce",
+  "Type": "App",
+  "Id": "MAZcpxs3lEy9n4Atqo7zWw",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/MAZcpxs3lEy9n4Atqo7zWw",
+  "Created": "2026-09-30T06:23:11.0126858Z",
+  "Updated": "2026-09-30T10:05:33.825641Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

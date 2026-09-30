@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Salesforce Home",
+  "Type": "Screen",
+  "Id": "XyTXiwjFpk68qTptrsDG-A",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/XyTXiwjFpk68qTptrsDG-A",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/jibSpx_H00WLaCuguHuEAg",
+  "Created": "2026-09-30T06:23:11.1043062Z",
+  "Updated": "2026-09-30T06:23:11.1043062Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

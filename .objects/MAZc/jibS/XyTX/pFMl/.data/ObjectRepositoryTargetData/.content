@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RvI0Tc7uDEWSZiUlhD2ZpA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/500VH00001NL6jtYAD" DesignTimeRectangle="48, 904, 544, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H3' aaname='Move-In Relations' /&gt;" Guid="320b6b4a-7c52-4e32-92fd-c648f08c6338" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="3706bd582581c06b8720ab50b2cc38f6.jpg" xmlns="">0SRTn6veTeE6dBiXDcqMJiQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

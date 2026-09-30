@@ -97,7 +97,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="zkt_Login" sap:VirtualizedContainerService.HintSize="1393,3625" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="zkt_Login" sap:VirtualizedContainerService.HintSize="1277,3625" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -117,7 +117,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="560,3063" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="77856fe6-9020-4b55-977c-41e8b421f8c2" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="560,3063" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="77856fe6-9020-4b55-977c-41e8b421f8c2" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
@@ -129,7 +129,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate 'DIV'" sap:VirtualizedContainerService.HintSize="524,139" sap2010:WorkflowViewState.IdRef="Activate_1">
+                    <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" ContinueOnError="True" DisplayName="Activate 'DIV'" sap:VirtualizedContainerService.HintSize="524,139" sap2010:WorkflowViewState.IdRef="Activate_1">
                       <ui:Activate.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="92a77c80-07e6-476a-9b13-4e05d3c5be78" InformativeScreenshot="61968ee2a4fbbb559379b9a3dbdd7da1" Selector="&lt;webctrl tag='DIV' class='container-fluid w-100' /&gt;">
                           <ui:Target.TimeoutMS>

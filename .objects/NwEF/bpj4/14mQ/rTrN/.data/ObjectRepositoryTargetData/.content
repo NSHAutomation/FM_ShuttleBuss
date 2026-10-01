@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0QbjRi9pzkKOmC1tbpqQaw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="91.74.105.58" DesignTimeRectangle="524, 445, 190, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='layui-input' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Department' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6fed8452-ef9b-4160-9f13-b0dcc9e8f9ec" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="407, 445, 117, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='*Department*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='LABEL' type='' class='layui-form-label' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Department*' /&gt;" Guid="6892d30c-9680-4aff-a0fd-cdc921fdc2db" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d3ad53bba9c9530aae8cea041cbaf0d7.jpg" xmlns="">0M5dW1SUupku-vOhnFo2raw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

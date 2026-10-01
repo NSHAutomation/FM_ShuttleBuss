@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mDYZE2LJb0WzJL0TqHGKtA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="91.74.105.58" DesignTimeRectangle="855, 404, 190, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='id_first_name' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='text' aaname='*First Name*    ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e1cd4036-df9e-40be-bb33-e64bb7caa7de" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="738, 404, 117, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='* First Name*     ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='LABEL' check:innerText='First Name' /&gt;" Guid="94c74493-686e-4a21-af7a-3f83f72e9818" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="aa8064687f4afbe551940397d74e17ea.jpg" xmlns="">0v8v6vf5zzUCnEikTY_wxPA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

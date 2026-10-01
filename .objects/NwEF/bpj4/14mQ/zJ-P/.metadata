@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Poaition",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "zJ-PAvJsvUayO5SR_r0x2g",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/zJ-PAvJsvUayO5SR_r0x2g",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A",
+  "Created": "2026-10-01T13:35:55.1569366Z",
+  "Updated": "2026-10-01T13:37:31.7538201Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

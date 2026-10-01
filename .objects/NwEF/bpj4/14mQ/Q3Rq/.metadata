@@ -1,0 +1,14 @@
+﻿{
+  "Name": "National",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "Q3Rq6_Y9RUe8XeH_6BB5Dw",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/Q3Rq6_Y9RUe8XeH_6BB5Dw",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A",
+  "Created": "2026-10-01T13:30:41.2194301Z",
+  "Updated": "2026-10-01T13:30:41.2194301Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

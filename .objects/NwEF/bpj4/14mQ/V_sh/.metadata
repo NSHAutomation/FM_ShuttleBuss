@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Hired Date(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "V_shcFSMT0CeXWfi9VrdWw",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/V_shcFSMT0CeXWfi9VrdWw",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A",
+  "Created": "2026-10-01T13:28:55.7447526Z",
+  "Updated": "2026-10-01T13:28:55.7447526Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

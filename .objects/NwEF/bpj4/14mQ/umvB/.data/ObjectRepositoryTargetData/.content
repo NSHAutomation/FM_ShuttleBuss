@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="utLk0CEFz0G8Ee9d91uDyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="91.74.105.58" DesignTimeRectangle="851, 527, 190, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='id_hire_date' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='text' class='layui-input layui-date' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='*Hired Date*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ce03a03a-28da-49f3-b8f4-7b78471c6c40" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="736, 527, 115, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='*Hired Date*   ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='LABEL' type='' class='layui-form-label' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Hired Date' /&gt;" Guid="0289dd44-a95a-458c-9047-7fb474ee7d10" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9732b39d859da93a9325ee61caf15eee.jpg" xmlns="">0AhfsgZFGXkCsgaVKpwS-1A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

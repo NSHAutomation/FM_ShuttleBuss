@@ -1,0 +1,248 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="zkt_Renewal" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_BussExpireDate" Type="InArgument(x:String)" />
+    <x:Property Name="in_EidNumber" Type="InArgument(x:String)" />
+    <x:Property Name="in_CoOccupent" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>zkt_Renewal_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="zkt_Renewal" sap:VirtualizedContainerService.HintSize="1277,1973" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="650,1950" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="616,1867" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+        <TryCatch.Try>
+          <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="486,1555" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1495" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="d9d1b4ee-c6c6-432a-be71-580210b2dfad" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1300" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Renewal In Process&quot;]" />
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Edit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9d1b4ee-c6c6-432a-be71-580210b2dfad" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="0venKhWIj0eBuGLdcSDTWw" DesignTimeRectangle="1832, 397, 26, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='layui-table' idx='2' parentid='employee_fluid' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='I' class='fa fa-fw fa-pencil-square-o' /&gt;" Guid="b53fbfc1-4f02-472a-b6e9-ed7cf1d5bf99" InformativeScreenshot="906e38677ef237c35955f6420bd59c61.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/-XaWlq5dC0-kPCXjTgtVWQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Hired Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="d9d1b4ee-c6c6-432a-be71-580210b2dfad" Text="[in_BussExpireDate]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="utLk0CEFz0G8Ee9d91uDyg" DesignTimeRectangle="851, 527, 190, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='id_hire_date' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='text' class='layui-input layui-date' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='*Hired Date*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ce03a03a-28da-49f3-b8f4-7b78471c6c40" InformativeScreenshot="9732b39d859da93a9325ee61caf15eee.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/umvBDKZkL0OXcBa3Db2GIg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="736, 527, 115, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='*Hired Date*   ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='LABEL' type='' class='layui-form-label' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Hired Date' /&gt;" Guid="0289dd44-a95a-458c-9047-7fb474ee7d10" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Payroll Settings'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9d1b4ee-c6c6-432a-be71-580210b2dfad" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="OpTbQ0sNX0-cJyCfqG0tLQ" DesignTimeRectangle="1129, 624, 133, 40" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LI' aaname='Payroll Settings' /&gt;" Guid="1c64b5ae-d67f-4b1e-9d45-078e2a194eff" InformativeScreenshot="c87e0b50915156337fd7658180796820.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/ld-FDSXqQ0-eR5gwrPuMTA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'National Number'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" ScopeIdentifier="d9d1b4ee-c6c6-432a-be71-580210b2dfad" Text="[in_EidNumber.Trim.Replace(&quot;-&quot;,&quot;&quot;)]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="teV-qRUV2ke-yoRIDy3LBA" DesignTimeRectangle="523, 808, 190, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='id_national_num' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='text' class='layui-input' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='*National Number*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="5d13c120-c2ce-46cd-8e3c-b5f83e9013cf" InformativeScreenshot="7ab4409ca4db5d103b7d6423f75720af.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/kZD0i-P6YkOg4Xm-n99Sxw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="408, 808, 115, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='*National Number*  ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='LABEL' type='' class='layui-form-label' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='National Number' /&gt;" Guid="59c9808f-9e32-494b-87ef-c9e87b2b3bba" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Confirm'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9d1b4ee-c6c6-432a-be71-580210b2dfad" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="m4hfKuZtAU-RenIFZPQLtQ" DesignTimeRectangle="1377, 907, 86, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='A' aaname='Confirm' /&gt;" Guid="6778b256-c5aa-47b2-b440-5515ccb80449" InformativeScreenshot="b4ba217e4e5fb29f7b0d060b2c41cd45.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/J7VpedzqLU22Y6Qgxfwvjg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                </ActivityFunc>
+              </uix:NApplicationCard.OCREngine>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Chrome" ContentHash="58NMqMFICkOYU2ZD568z9Q" IconBase64="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" InformativeScreenshot="2377f33f9d201f794057cb9853f22bd7.jpg" Reference="_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A" Selector="&lt;html app='chrome.exe' title='*' /&gt;" Url="http://91.74.105.58:8002/login/?next=/logout/" Version="V3" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </TryCatch.Try>
+        <TryCatch.Catches>
+          <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+            <ActivityAction x:TypeArguments="s:Exception">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Catch" sap:VirtualizedContainerService.HintSize="486,90" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Sequence>
+            </ActivityAction>
+          </Catch>
+        </TryCatch.Catches>
+        <TryCatch.Finally>
+          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="486,90" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Sequence>
+        </TryCatch.Finally>
+      </TryCatch>
+    </Sequence>
+  </Sequence>
+</Activity>

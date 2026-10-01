@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6Z8mgxULn0mOgtWEE2ZgcQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="91.74.105.58" DesignTimeRectangle="524, 462, 190, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='position1790859554' tag='DIV' class='layui-select-title' /&gt;" Guid="2166454d-6f53-4082-945f-c6345312137a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="adc59e75fb7ffe4c09a33741e43555db.jpg" xmlns="">0PZvD9oeD1kGUzEv77ceBSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

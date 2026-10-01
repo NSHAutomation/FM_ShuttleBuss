@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Sports Lounge",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "iPmToHo3_UCg9boOsn0hcA",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/iPmToHo3_UCg9boOsn0hcA",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A",
+  "Created": "2026-10-01T13:22:06.7815718Z",
+  "Updated": "2026-10-01T13:22:06.7815718Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

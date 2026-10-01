@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="W_D1IbJLMk2yaaIzONK17w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="91.74.105.58" DesignTimeRectangle="525, 743, 138, 26" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='id_national' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='password' class='layui-input layui-input-inner' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='*National*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="db726efd-0e57-4fd1-99f1-ce3cb0f3d89f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="408, 743, 117, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='       National         ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='LABEL' class='layui-form-label' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='National' /&gt;" Guid="77537ec7-56cb-489b-b555-d6edea071e41" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4514f64ec84c7ec988ad479374277a8f.jpg" xmlns="">0-Rp5X39vtEi4d6UFD0yV4g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0venKhWIj0eBuGLdcSDTWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="91.74.105.58" DesignTimeRectangle="1832, 397, 26, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='layui-table' idx='2' parentid='employee_fluid' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='I' class='fa fa-fw fa-pencil-square-o' /&gt;" Guid="b53fbfc1-4f02-472a-b6e9-ed7cf1d5bf99" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="906e38677ef237c35955f6420bd59c61.jpg" xmlns="">0xzaJtOHMlkSeHzXRL5qPNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

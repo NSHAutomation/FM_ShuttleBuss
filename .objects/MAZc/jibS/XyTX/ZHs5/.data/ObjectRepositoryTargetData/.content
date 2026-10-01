@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w1901dadaUOybG82cxSz2A" Reference="_4gMXxwwD0CddHt5exizPA/ZHs5botq006tUIC_Z3mCCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/500VH000000lSIcYAM" DesignTimeRectangle="341, 511, 54, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl aaname='Action Move-In Relation Name Co-occupant Name Emirates Id Relation Shuttle Bus Access Required Move In Type Move In Status Ejari End Date Move Out Date*' class='list' tag='TABLE' /&gt;&lt;webctrl aaname='{0}' tableRow='{1}' tag='A' /&gt;&quot;, in_CoOccupentID, in_Counter)]" Guid="97ea8db1-88d0-49ea-b29e-0f7d3271f462" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="54a7b67634b8c9cbcf1a31fe7bedc377.jpg" xmlns="">0S_SqV0F-tkuW9zGjjyHbPg</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="2">
+      <ObjectRepositoryVariableData IsVariable="False" Name="in_CoOccupentID" />
+      <ObjectRepositoryVariableData IsVariable="False" Name="in_Counter" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

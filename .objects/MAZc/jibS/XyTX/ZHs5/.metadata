@@ -1,0 +1,14 @@
+﻿{
+  "Name": "CO-01104",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ZHs5botq006tUIC_Z3mCCA",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/ZHs5botq006tUIC_Z3mCCA",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/XyTXiwjFpk68qTptrsDG-A",
+  "Created": "2026-10-01T10:22:02.2973304Z",
+  "Updated": "2026-10-01T10:22:02.2973304Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

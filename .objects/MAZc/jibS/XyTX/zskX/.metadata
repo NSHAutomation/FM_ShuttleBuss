@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Shuttle Bus Expiry Date…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "zskXZlvuOUGEnaweNm2sug",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/zskXZlvuOUGEnaweNm2sug",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/XyTXiwjFpk68qTptrsDG-A",
+  "Created": "2026-10-01T11:05:44.8513008Z",
+  "Updated": "2026-10-01T11:05:44.8513008Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

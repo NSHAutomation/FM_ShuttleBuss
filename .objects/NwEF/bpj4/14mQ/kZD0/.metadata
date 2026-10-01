@@ -1,0 +1,14 @@
+﻿{
+  "Name": "National Number",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "kZD0i-P6YkOg4Xm-n99Sxw",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/kZD0i-P6YkOg4Xm-n99Sxw",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A",
+  "Created": "2026-10-01T09:38:05.1628635Z",
+  "Updated": "2026-10-01T09:38:05.1628635Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

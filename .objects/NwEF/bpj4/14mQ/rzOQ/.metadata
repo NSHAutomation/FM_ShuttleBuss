@@ -1,0 +1,14 @@
+﻿{
+  "Name": "NSHAMABUS",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "rzOQP-ebxkOi6MaGDZ7d4Q",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/rzOQP-ebxkOi6MaGDZ7d4Q",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A",
+  "Created": "2026-10-01T13:21:30.9358317Z",
+  "Updated": "2026-10-01T13:21:30.9358317Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

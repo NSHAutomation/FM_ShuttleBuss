@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Position-Select",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "lABx_bqt2UO7NSYPv3wTgg",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/lABx_bqt2UO7NSYPv3wTgg",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A",
+  "Created": "2026-10-01T13:37:12.7025863Z",
+  "Updated": "2026-10-01T13:37:40.2816373Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

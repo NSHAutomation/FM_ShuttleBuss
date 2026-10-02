@@ -1,0 +1,14 @@
+﻿{
+  "Name": "BUSRESIGN",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vlaHsN_tbUCiEvUsFWmfTg",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/vlaHsN_tbUCiEvUsFWmfTg",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A",
+  "Created": "2026-10-02T08:39:55.2933031Z",
+  "Updated": "2026-10-02T08:39:55.2933031Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

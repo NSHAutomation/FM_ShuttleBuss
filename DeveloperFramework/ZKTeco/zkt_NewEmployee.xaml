@@ -111,33 +111,33 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="zkt_NewEmployee" sap:VirtualizedContainerService.HintSize="757,4075" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="zkt_NewEmployee" sap:VirtualizedContainerService.HintSize="1277,4910" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="650,4052" sap2010:WorkflowViewState.IdRef="Sequence_6">
+    <Sequence sap:VirtualizedContainerService.HintSize="758,4887" sap2010:WorkflowViewState.IdRef="Sequence_6">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="616,3969" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="724,4804" sap2010:WorkflowViewState.IdRef="TryCatch_1">
         <TryCatch.Try>
-          <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="486,3722" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="722,4557" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,3662" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="688,4497" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,3467" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="686,4302" sap2010:WorkflowViewState.IdRef="Sequence_2">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="in_MovinType" />
                     </Sequence.Variables>
@@ -146,12 +146,12 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="zaTc2h5YyEa3YnIL_5P5dg" DesignTimeRectangle="214, 322, 68, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='employee_fluid' tag='A' aaname='Add' /&gt;" Guid="d95f9e97-e719-448b-88f8-3901faa58d30" InformativeScreenshot="f3ace2013f486f75a68f68ff4c81b145.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/kJCBGinJ4EOig-TXzxdVAw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_PersonName]" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_PersonName]" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="mDYZE2LJb0WzJL0TqHGKtA" DesignTimeRectangle="855, 404, 190, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='id_first_name' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='text' aaname='*First Name*    ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e1cd4036-df9e-40be-bb33-e64bb7caa7de" InformativeScreenshot="aa8064687f4afbe551940397d74e17ea.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/5V1VmcMQrEWtRSKTWPleLw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
                           <uix:TargetAnchorable.Anchors>
@@ -172,11 +172,11 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Last Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_PersonName]" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Last Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_PersonName]" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="MepvgoMd2k2eBe1y09nrPA" DesignTimeRectangle="855, 445, 190, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='id_last_name' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='text' class='layui-input' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='*Last Name*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8a876998-ebf0-4923-aec6-e3b5dba35f06" InformativeScreenshot="8a5e1e4042d147925b10e4b20344cfd8.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/8enOKZ9P7keOSxHvJbqUrQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="738, 445, 117, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='*Last Name*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='LABEL' class='layui-form-label' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Last Name' /&gt;" Guid="d7f9ec42-4350-4af3-b8d2-2aae18c133df" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -193,48 +193,48 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Area *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Area *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,194" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="7dMIttbAVEGh1yBaAXmBLw" DesignTimeRectangle="855, 486, 190, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl parentid='area1790859554' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='INPUT' type='text' class='layui-input' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="3d53ba0a-9d92-4f99-9456-84e43c355ff0" InformativeScreenshot="1c966fee46268e151e9f7241d14a9f9b.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/i9Mh8vwiLUC5OwN6IUBE4A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="738, 486, 117, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='*Area*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='LABEL' type='' class='layui-form-label' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Area*' /&gt;" Guid="eeabd4a1-847f-432e-97fb-3c783805b5d9" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'NSHAMABUS'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'NSHAMABUS'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,194" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="GRTFDufoMkupk4_Mc0fNbg" DesignTimeRectangle="890, 563, 78, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='NSHAMABUS' class='node_name' tag='SPAN' /&gt;" Guid="3ba81950-8d6d-4490-920d-36cd76512123" InformativeScreenshot="7ccc4eed1bee4672592899b2c7216784.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/rzOQP-ebxkOi6MaGDZ7d4Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sports Lounge'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sports Lounge'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,194" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="aPGA-FSmd0ya15nK_hg7yg" DesignTimeRectangle="890, 683, 87, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Sports Lounge' class='node_name' tag='SPAN' /&gt;" Guid="d1a639e6-cfbc-46e1-b2a6-78f36ed80c9d" InformativeScreenshot="0c3cba2b570461a3efd4fe3558220be2.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/iPmToHo3_UCg9boOsn0hcA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Department *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Department *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,194" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="0QbjRi9pzkKOmC1tbpqQaw" DesignTimeRectangle="524, 445, 190, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='layui-input' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Department' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6fed8452-ef9b-4160-9f13-b0dcc9e8f9ec" InformativeScreenshot="d3ad53bba9c9530aae8cea041cbaf0d7.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/rTrNc8lbuEuWXT5t0INDhw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="407, 445, 117, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='*Department*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='LABEL' type='' class='layui-form-label' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Department*' /&gt;" Guid="6892d30c-9680-4aff-a0fd-cdc921fdc2db" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Department'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Department'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,194" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="TcmUiHxj5UuHaLPkUdEENg" DesignTimeRectangle="559, 502, 72, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Department' class='node_name' tag='SPAN' parentid='department*' idx='2' /&gt;" Guid="b097cb5b-0a60-4c3d-8fb5-a68a38c50744" InformativeScreenshot="db3f25ab1e2bcd49796944358ee6ca1a.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/qzNvPeynPUubNlXSMZgTlg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Hired Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_BussExpireDate]" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Hired Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_BussExpireDate]" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="PhnCzhVtdUuIeUf04ALPVA" DesignTimeRectangle="855, 527, 190, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='id_hire_date' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='text' class='layui-input layui-date' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='*Hired Date*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c4ce7b0b-ef40-4ea6-b0b5-a3d2e6fe6efb" InformativeScreenshot="1155cdb5b67edca8d8693df5d3a7cd76.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/V_shcFSMT0CeXWfi9VrdWw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="738, 527, 117, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='*Hired Date*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' class='layui-form-label' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Hired Date' /&gt;" Guid="60d56d0a-4761-4ae2-8d93-afe25b607dd9" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -251,21 +251,54 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Poaition'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Poaition'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,194" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="6Z8mgxULn0mOgtWEE2ZgcQ" DesignTimeRectangle="524, 462, 190, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='position1790859554' tag='DIV' class='layui-select-title' /&gt;" Guid="2166454d-6f53-4082-945f-c6345312137a" InformativeScreenshot="adc59e75fb7ffe4c09a33741e43555db.jpg" Reference="_4gMXxwwD0CddHt5exizPA/zJ-PAvJsvUayO5SR_r0x2g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Position-Select'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
-                      <uix:NClick.Target>
+                    <uix:NCheckState DisplayName="Check App State 'Position-Select'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="652,1029" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="650,245" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Position-Select'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="616,185" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="OX0kmI7MsEC8R-4fajWuXQ" DesignTimeRectangle="577, 539, 49, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl aaname='{0}' class='node_name' tag='SPAN' /&gt;&quot;,in_MovinType.ToUpper)]" Guid="df87389a-38af-49a2-b71c-2c3998ed8f24" InformativeScreenshot="c0e89ad79690a90dd7aaf5cc7cf6f32a.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/lABx_bqt2UO7NSYPv3wTgg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="650,439" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Position'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="616,194" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="OEciZkgQiUOu405BcTU5bg" DesignTimeRectangle="557, 571, 90, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Position*' class='node_name' tag='SPAN' /&gt;" Guid="582d4305-4b98-405e-80a9-77e2afca3e57" InformativeScreenshot="0bad1143ff55f9de5151bcf0f913d97d.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/PsxoLlfxnESrLQ9na7PYiw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Position-Select'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="616,185" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="OX0kmI7MsEC8R-4fajWuXQ" DesignTimeRectangle="577, 539, 49, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl aaname='{0}' class='node_name' tag='SPAN' /&gt;&quot;,in_MovinType.ToUpper)]" Guid="df87389a-38af-49a2-b71c-2c3998ed8f24" InformativeScreenshot="c0e89ad79690a90dd7aaf5cc7cf6f32a.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/lABx_bqt2UO7NSYPv3wTgg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="OX0kmI7MsEC8R-4fajWuXQ" DesignTimeRectangle="577, 539, 49, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl aaname='{0}' class='node_name' tag='SPAN' /&gt;&quot;,in_MovinType.ToUpper)]" Guid="df87389a-38af-49a2-b71c-2c3998ed8f24" InformativeScreenshot="c0e89ad79690a90dd7aaf5cc7cf6f32a.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/lABx_bqt2UO7NSYPv3wTgg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
-                      </uix:NClick.Target>
-                    </uix:NClick>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'National'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_EidNumber]" Version="V5">
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'National'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_EidNumber]" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="W_D1IbJLMk2yaaIzONK17w" DesignTimeRectangle="525, 743, 138, 26" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='id_national' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='password' class='layui-input layui-input-inner' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='*National*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="db726efd-0e57-4fd1-99f1-ce3cb0f3d89f" InformativeScreenshot="4514f64ec84c7ec988ad479374277a8f.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/Q3Rq6_Y9RUe8XeH_6BB5Dw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="408, 743, 117, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='       National         ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='LABEL' class='layui-form-label' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='National' /&gt;" Guid="77537ec7-56cb-489b-b555-d6edea071e41" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -282,11 +315,11 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="HardwareEvents" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_ZktAddress]" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,246" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="HardwareEvents" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_ZktAddress]" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="Ag2cZDgjKUyPkgg9WLRF7Q" DesignTimeRectangle="1187, 743, 140, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='id_address' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='text' class='layui-input layui-input-inner' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='*Address*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="27c22c72-c86a-439e-b6a2-3b616bccb7d3" InformativeScreenshot="1cb6473a99fd0f658677b6b414908e1c.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/IPXQu5ArnEeRA7joxqm_vg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="1070, 743, 117, 26" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl aaname='*Address*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='employee_edit_form' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='LABEL' type='' class='layui-form-label' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Address' /&gt;" Guid="9d648130-0311-4f09-90e6-936e0b685f28" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -303,12 +336,12 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Payroll Settings'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Payroll Settings'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,194" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="OpTbQ0sNX0-cJyCfqG0tLQ" DesignTimeRectangle="1129, 624, 133, 40" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LI' aaname='Payroll Settings' /&gt;" Guid="1c64b5ae-d67f-4b1e-9d45-078e2a194eff" InformativeScreenshot="c87e0b50915156337fd7658180796820.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/ld-FDSXqQ0-eR5gwrPuMTA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'National Number'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="HardwareEvents" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_EidNumber.Trim.Replace(&quot;-&quot;,&quot;&quot;)]" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'National Number'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,246" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="HardwareEvents" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Text="[in_EidNumber.Trim.Replace(&quot;-&quot;,&quot;&quot;)]" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="teV-qRUV2ke-yoRIDy3LBA" DesignTimeRectangle="523, 808, 190, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl id='id_national_num' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' type='text' class='layui-input' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='*National Number*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="5d13c120-c2ce-46cd-8e3c-b5f83e9013cf" InformativeScreenshot="7ab4409ca4db5d103b7d6423f75720af.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/kZD0i-P6YkOg4Xm-n99Sxw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -329,7 +362,7 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Confirm'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Confirm'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="652,185" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bdd5678-2665-4679-9a76-91b189a50a6a" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="91.74.105.58" ContentHash="m4hfKuZtAU-RenIFZPQLtQ" DesignTimeRectangle="1377, 907, 86, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='A' aaname='Confirm' /&gt;" Guid="6778b256-c5aa-47b2-b440-5515ccb80449" InformativeScreenshot="b4ba217e4e5fb29f7b0d060b2c41cd45.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/J7VpedzqLU22Y6Qgxfwvjg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
                       </uix:NClick.Target>
@@ -356,7 +389,7 @@
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Catch" sap:VirtualizedContainerService.HintSize="486,90" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence DisplayName="Catch" sap:VirtualizedContainerService.HintSize="722,90" sap2010:WorkflowViewState.IdRef="Sequence_4">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -367,7 +400,7 @@
           </Catch>
         </TryCatch.Catches>
         <TryCatch.Finally>
-          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="486,25" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="722,25" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>

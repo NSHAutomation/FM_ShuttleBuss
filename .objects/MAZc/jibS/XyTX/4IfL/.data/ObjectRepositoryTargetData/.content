@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fc3jUlqOGUa_QWMD8HWWyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/a1HVH00000AjqO6" DesignTimeRectangle="1308, 414, 83, 19" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='SELECT' aaname='*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b96f89a2-47de-42b0-bd23-7c1e6d328e7f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="965, 411, 333, 25" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl class='last labelCol' matching:class='fuzzy' fuzzylevel:class='0.0' tag='TD' aaname='Status' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Status' /&gt;" Guid="1ff97741-804e-425a-a8e1-80a32d546214" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ecf8d9ffa32e00598e360082d8bb8e5d.jpg" xmlns="">0AHcNCGFz5kmNe7gqSY9wFw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

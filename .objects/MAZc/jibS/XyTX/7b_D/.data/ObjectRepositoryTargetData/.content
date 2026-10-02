@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ttH_5YFpGUqkCGIjM86HCA" Reference="_4gMXxwwD0CddHt5exizPA/7b_Dsg1hSUKu6CHOzc7jiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/500VH00001NZL78YAH" DesignTimeRectangle="95, 565, 54, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;ctrl role='table' /&gt;&lt;ctrl role='row header' /&gt;&lt;ctrl role='link' /&gt;" Guid="1f34505c-a9d2-4b29-931c-2e5fabbe4975" ScopeSelectorArgument="&lt;wnd app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="AA" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="180, 565, 251, 15" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;ctrl role='table' /&gt;&lt;ctrl name='Facility Management - Shuttle Bus Registration' matching:name='fuzzy' fuzzylevel:name='0.0' role='link' check:text='Facility Management - Shuttle Bus Registration' /&gt;" Guid="49040753-fdfe-4d49-8366-d4a2960d6115" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b9c051be7c5291c37314e9e6c6ff9409.jpg" xmlns="">0goDCI_4ha0-m0ve7KWF0zA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

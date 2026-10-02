@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wVTagBC0EUumJc2Og2Pm2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/a0dVH000004Vytd/e" DesignTimeRectangle="395, 435, 88, 19" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='SELECT' aaname='Shuttle Bus Access Required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="93adc216-cb51-49cd-91b9-9c5eb0807193" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="224, 435, 151, 12" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='LABEL' aaname='Shuttle Bus Access Required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Shuttle Bus Access Required' /&gt;" Guid="af50f8ae-a59d-42eb-84ba-a6dd32f1eafe" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9d4a54daafe5ce20d4f1953e68d4b272.jpg" xmlns="">0SoOVyqgC4EOPSB0AAKQAxQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

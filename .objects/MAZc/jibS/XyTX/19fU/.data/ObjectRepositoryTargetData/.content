@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yg7I6M-nNEWYltF1ZA09xg" Reference="_4gMXxwwD0CddHt5exizPA/19fUBFhsVkiG2QgJx2OakA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/500VH00001NZL78YAH" DesignTimeRectangle="113, 686, 64, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;ctrl role='table' idx='24' /&gt;&lt;ctrl name='{0}' role='link' /&gt;&quot;,moveInRelationName)]" Guid="064ebb05-0896-4f0a-94d2-fae1559e25b2" ScopeSelectorArgument="&lt;wnd app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" SelectionStrategy="AA" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="669e64a718aa7435516bad83886b4e22.jpg" xmlns="">0sGqjahtxpE-9mUHKFU7fdA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

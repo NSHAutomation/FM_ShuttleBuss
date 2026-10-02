@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Save MR Status",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "NQEaWLfrVU25yIB7y-o51w",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/NQEaWLfrVU25yIB7y-o51w",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/XyTXiwjFpk68qTptrsDG-A",
+  "Created": "2026-10-02T08:02:09.2524238Z",
+  "Updated": "2026-10-02T08:02:35.5980526Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

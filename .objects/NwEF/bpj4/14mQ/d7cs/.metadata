@@ -1,0 +1,17 @@
+﻿{
+  "Name": "I UnCheck Area",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "d7csJ_tk0kuNF7AA-RqIHw",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/d7csJ_tk0kuNF7AA-RqIHw",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/14mQzSrqUE-Vl6kMHKW84A",
+  "Created": "2026-10-02T08:36:23.3963917Z",
+  "Updated": "2026-10-02T08:36:40.9843512Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Take Ownership",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Jk4SJYlJwUqZzw03eziNkw",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/Jk4SJYlJwUqZzw03eziNkw",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/XyTXiwjFpk68qTptrsDG-A",
+  "Created": "2026-10-02T07:06:31.1030639Z",
+  "Updated": "2026-10-02T07:06:31.1030639Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

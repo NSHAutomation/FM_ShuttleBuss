@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Status-MR",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "4IfLYXjzmkq57lJoWA0PbA",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/4IfLYXjzmkq57lJoWA0PbA",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/XyTXiwjFpk68qTptrsDG-A",
+  "Created": "2026-10-02T08:00:20.8556639Z",
+  "Updated": "2026-10-02T08:02:30.3909558Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

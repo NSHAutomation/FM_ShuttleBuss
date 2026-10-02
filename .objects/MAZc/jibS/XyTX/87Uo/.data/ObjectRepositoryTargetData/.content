@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7HtewAXYJkWdBFyZ28SWcg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/a1HVH00000AjqO6" DesignTimeRectangle="1296, 409, 565, 14" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='detailList' idx='2' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableCol='4' tableRow='2' tag='DIV' /&gt;" Guid="350f03b0-b437-4e65-b1b5-853b1ea830ab" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="067c740364e65f8dd171ec3df9d4554a.jpg" xmlns="">0BsM9T7n-FESXpn6efKqYqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Shuttle Bus Access Requ…",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "ZE4j3RGZu0KdC8M34H8O6w",
+  "Reference": "_4gMXxwwD0CddHt5exizPA/ZE4j3RGZu0KdC8M34H8O6w",
+  "ParentRef": "_4gMXxwwD0CddHt5exizPA/XyTXiwjFpk68qTptrsDG-A",
+  "Created": "2026-10-02T08:16:48.1094282Z",
+  "Updated": "2026-10-02T08:16:48.1094282Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

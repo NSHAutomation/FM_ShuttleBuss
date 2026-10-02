@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3jAMx4AGMEaJLi2NoP-z7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="91.74.105.58" DesignTimeRectangle="852, 521, 18, 14" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='I' class='fa fa-fw fa-check-square-o' /&gt;" Guid="4fdf367e-326f-4a84-b364-1b8ea1af8bbc" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="f9c92e6a1eb3944aecf3c2fd57c60f51.jpg" xmlns="">0fNRaljFMIE2JEp-m27qRgA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

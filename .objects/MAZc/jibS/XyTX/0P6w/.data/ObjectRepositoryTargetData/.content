@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="Flk6XgxTMkWnaZ8c0TPrjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="5a0rY6LDhE-23gYPpRbF3w" Reference="_4gMXxwwD0CddHt5exizPA/0P6wTnKW8U2AeyuO2Kw8OA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/a1HVH00000AjqO6" DesignTimeRectangle="1308, 414, 565, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='DIV' aaname='Verified' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e4d9fbfe-9593-4719-b2fd-99397347f4db" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nshama.my.salesforce.com/a1HVH00000AjyGo" DesignTimeRectangle="1308, 414, 565, 14" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='DIV' aaname='*' /&gt;" Guid="9e2d0377-1613-4f33-b864-71cf44e5cdd2" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target DesignTimeRectangle="965, 411, 333, 20" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='TD' aaname='Status' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Status' /&gt;" Guid="09508eef-7b53-4b4c-a41f-3f2edfc8f94c" SearchSteps="FuzzySelector" />
+          <Target DesignTimeRectangle="965, 411, 333, 20" ElementType="Text" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl class='last labelCol' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Status' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Status' /&gt;" Guid="9b3a7ce3-3d7d-4214-89d1-1a88449a9c86" SearchSteps="FuzzySelector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="136289dfd7a328ee0b7447912a8af199.jpg" xmlns="">0o7QqgVAs3U6t59Dn8SRH1Q</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="d6bcaf98c258b3e652fe7e1fa2bc5475.jpg" xmlns="">0k5AqxKwN9UyLARot9KdBJA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">GetText</x:String>
   </ObjectRepositoryTargetData.Data>

@@ -1,11 +1,11 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="sf_UpdateDetails" this:sf_UpdateDetails.in_CaseNumber="[]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="sf_UpdateDetails" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
+    <x:Property Name="in_CaseNumber" Type="InArgument(x:String)" />
     <x:Property Name="in_CoOccupentID" Type="InArgument(x:String)" />
     <x:Property Name="in_Counter" Type="InArgument(x:String)" />
     <x:Property Name="in_EjariEndDate" Type="InArgument(x:String)" />
     <x:Property Name="in_moveInRelationName" Type="InArgument(x:String)" />
     <x:Property Name="in_ShuttleBusAccessRequired" Type="InArgument(x:String)" />
-    <x:Property Name="in_CaseNumber" Type="InArgument(x:String)" />
   </x:Members>
   <VisualBasic.Settings>
     <x:Null />
@@ -114,27 +114,27 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="sf_UpdateDetails" sap:VirtualizedContainerService.HintSize="1530,3628" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="sf_UpdateDetails" sap:VirtualizedContainerService.HintSize="1530,3555" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="650,3605" sap2010:WorkflowViewState.IdRef="Sequence_6">
+    <Sequence sap:VirtualizedContainerService.HintSize="650,3532" sap2010:WorkflowViewState.IdRef="Sequence_6">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="616,3522" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="616,3449" sap2010:WorkflowViewState.IdRef="TryCatch_1">
         <TryCatch.Try>
-          <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="522,2951" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="522,2878" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Salesforce Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,2891" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="efdf0306-12f1-41b7-b588-0e71838c2011" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Edge Salesforce Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,2818" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="efdf0306-12f1-41b7-b588-0e71838c2011" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
@@ -154,12 +154,12 @@
                         <InArgument x:TypeArguments="x:String">[DateTime.ParseExact(in_EjariEndDate, "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture).AddYears(1).ToString("yyyy-MM-dd")]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'CO-Occupent'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Version="V5">
+                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'CO-Occupent'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_1" InUiElement="{x:Null}" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="nshama.my.salesforce.com/500VH000000lSIcYAM" ContentHash="w1901dadaUOybG82cxSz2A" DesignTimeRectangle="341, 511, 54, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[String.Format(&quot;&lt;webctrl aaname='Action Move-In Relation Name Co-occupant Name Emirates Id Relation Shuttle Bus Access Required Move In Type Move In Status Ejari End Date Move Out Date*' class='list' tag='TABLE' /&gt;&lt;webctrl aaname='{0}' tableRow='{1}' tag='A' /&gt;&quot;, in_CoOccupentID, in_Counter)]" Guid="97ea8db1-88d0-49ea-b29e-0f7d3271f462" InformativeScreenshot="54a7b67634b8c9cbcf1a31fe7bedc377.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/ZHs5botq006tUIC_Z3mCCA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click 'Edit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Version="V5">
+                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="5" DelayBefore="{x:Null}" DisplayName="Click 'Edit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_3" InUiElement="{x:Null}" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="nshama.my.salesforce.com/500VH00001EuMBvYAN" ContentHash="Q0mFNBRgo0KT8hh_iY_jgg" DesignTimeRectangle="609, 352, 35, 18" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Edit' /&gt;" Guid="82e2e1d7-a821-4daf-bcb4-a5ebe8ebfe35" InformativeScreenshot="a8b1aef482b74179a5cbf02eed2db05c.jpg" IsResponsive="True" Reference="2ndl-ObV5kmdLRbmcN62Zg/l0thVLiI8U61-p7LwyTweA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
                       </uix:NClick.Target>
@@ -190,7 +190,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Shuttle Bus Expiry Date…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Text="[in_EjariEndDate]" Version="V5">
+                                <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Shuttle Bus Expiry Date…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InScope="{x:Null}" InUiElement="{x:Null}" InteractionMode="HardwareEvents" OutUiElement="{x:Null}" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" SecureText="{x:Null}" Text="[in_EjariEndDate]" Timeout="{x:Null}" Version="V5">
                                   <uix:NTypeInto.Target>
                                     <uix:TargetAnchorable BrowserURL="nshama.my.salesforce.com/a0d1R00000QftYY/e" ContentHash="rortXoEHhUO8CxGCnMkynw" DesignTimeRectangle="1313, 483, 88, 20" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl type='text' tag='INPUT' aaname='Shuttle Bus Expiry Date (INPUT)' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="732324cb-1d58-4d11-85e5-35bda88497a8" InformativeScreenshot="01bc0d742b929a3e1a45f945136592f4.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/zskXZlvuOUGEnaweNm2sug" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                       <uix:TargetAnchorable.Anchors>
@@ -211,7 +211,7 @@
                                     </uix:VerifyExecutionTypeIntoOptions>
                                   </uix:NTypeInto.VerifyOptions>
                                 </uix:NTypeInto>
-                                <uix:NSelectItem DisplayName="Select Item 'Shuttle Bus Access Requ…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="Renewed" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Version="V5">
+                                <uix:NSelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'Shuttle Bus Access Requ…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_2" InScope="{x:Null}" InUiElement="{x:Null}" Item="Renewed" OutUiElement="{x:Null}" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Timeout="{x:Null}" Version="V5">
                                   <uix:NSelectItem.Items>
                                     <scg:List x:TypeArguments="x:String" Capacity="4">
                                       <x:String>--None--</x:String>
@@ -241,7 +241,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Shuttle Bus Expiry Date…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Version="V5">
+                                <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Shuttle Bus Expiry Date…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InScope="{x:Null}" InUiElement="{x:Null}" InteractionMode="HardwareEvents" OutUiElement="{x:Null}" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" SecureText="{x:Null}" Timeout="{x:Null}" Version="V5">
                                   <uix:NTypeInto.Target>
                                     <uix:TargetAnchorable BrowserURL="nshama.my.salesforce.com/a0d1R00000QftYY/e" ContentHash="rortXoEHhUO8CxGCnMkynw" DesignTimeRectangle="1313, 483, 88, 20" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl type='text' tag='INPUT' aaname='Shuttle Bus Expiry Date (INPUT)' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="732324cb-1d58-4d11-85e5-35bda88497a8" InformativeScreenshot="01bc0d742b929a3e1a45f945136592f4.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/zskXZlvuOUGEnaweNm2sug" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                       <uix:TargetAnchorable.Anchors>
@@ -253,7 +253,10 @@
                                   </uix:NTypeInto.Target>
                                   <uix:NTypeInto.Text>
                                     <InArgument x:TypeArguments="x:String">
-                                      <Literal x:TypeArguments="x:String" Value="" />
+                                      <Literal x:TypeArguments="x:String">
+                                        <Literal.Result>
+                                          <OutArgument x:TypeArguments="x:String" />
+                                        </Literal.Result></Literal>
                                     </InArgument>
                                   </uix:NTypeInto.Text>
                                   <uix:NTypeInto.VerifyOptions>
@@ -267,7 +270,7 @@
                                     </uix:VerifyExecutionTypeIntoOptions>
                                   </uix:NTypeInto.VerifyOptions>
                                 </uix:NTypeInto>
-                                <uix:NSelectItem DisplayName="Select Item 'Shuttle Bus Access Requ…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="No/Revoke" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Version="V5">
+                                <uix:NSelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'Shuttle Bus Access Requ…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_3" InScope="{x:Null}" InUiElement="{x:Null}" Item="No/Revoke" OutUiElement="{x:Null}" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Timeout="{x:Null}" Version="V5">
                                   <uix:NSelectItem.Items>
                                     <scg:List x:TypeArguments="x:String" Capacity="4">
                                       <x:String>--None--</x:String>
@@ -298,7 +301,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Shuttle Bus Expiry Date…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Text="[in_EjariEndDate]" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Shuttle Bus Expiry Date…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InScope="{x:Null}" InUiElement="{x:Null}" InteractionMode="HardwareEvents" OutUiElement="{x:Null}" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" SecureText="{x:Null}" Text="[in_EjariEndDate]" Timeout="{x:Null}" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="nshama.my.salesforce.com/a0d1R00000QftYY/e" ContentHash="rortXoEHhUO8CxGCnMkynw" DesignTimeRectangle="1313, 483, 88, 20" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl type='text' tag='INPUT' aaname='Shuttle Bus Expiry Date (INPUT)' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="732324cb-1d58-4d11-85e5-35bda88497a8" InformativeScreenshot="01bc0d742b929a3e1a45f945136592f4.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/zskXZlvuOUGEnaweNm2sug" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -319,7 +322,7 @@
                               </uix:VerifyExecutionTypeIntoOptions>
                             </uix:NTypeInto.VerifyOptions>
                           </uix:NTypeInto>
-                          <uix:NSelectItem DisplayName="Select Item 'Shuttle Bus Access Requ…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Yes" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Version="V5">
+                          <uix:NSelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'Shuttle Bus Access Requ…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_1" InScope="{x:Null}" InUiElement="{x:Null}" Item="Yes" OutUiElement="{x:Null}" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Timeout="{x:Null}" Version="V5">
                             <uix:NSelectItem.Items>
                               <scg:List x:TypeArguments="x:String" Capacity="4">
                                 <x:String>--None--</x:String>
@@ -341,12 +344,12 @@
                         </Sequence>
                       </ui:IfElseIfV2.Then>
                     </ui:IfElseIfV2>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Version="V5">
+                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_4" InScope="{x:Null}" InUiElement="{x:Null}" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="nshama.my.salesforce.com/a0d1R00000QftYY/e" ContentHash="4k9TKHlYu0WFn4Y-37vVgQ" DesignTimeRectangle="615, 325, 39, 18" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Save' type='submit' /&gt;" Guid="f06c92b3-689f-4545-b4c9-2bb620ccce8a" InformativeScreenshot="71c9e96a3b1f3a1ed1f64389b682caa9.jpg" IsResponsive="True" Reference="_4gMXxwwD0CddHt5exizPA/aKNn91FVmEOJSl7Bxumfpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Salesforce*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NNavigateBrowser DisplayName="Navigate Browser - Go Back" sap:VirtualizedContainerService.HintSize="452,113" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Version="V5" />
+                    <uix:NNavigateBrowser ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Navigate Browser - Go Back" sap:VirtualizedContainerService.HintSize="452,113" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="efdf0306-12f1-41b7-b588-0e71838c2011" Timeout="{x:Null}" Version="V5" />
                   </Sequence>
                 </ActivityAction>
               </uix:NApplicationCard.Body>
